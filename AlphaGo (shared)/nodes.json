@@ -1,0 +1,99 @@
+{
+    "py/object": "bibli.MCTS.Node.Node",
+    "state": {
+        "py/object": "bibli.TTT.TicTacToe.Board",
+        "board_mat": {
+            "py/reduce": [
+                "<built-in function _reconstruct>",
+                "(<class 'numpy.ndarray'>, (0,), b'b')",
+                "(1, (3, 3), dtype('float64'), False, b'\\x00\\x00\\x00\\x00\\x00\\x00\\xf0\\xbf\\x00\\x00\\x00\\x00\\x00\\x00\\xf0\\xbf\\x00\\x00\\x00\\x00\\x00\\x00\\xf0\\xbf\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x00\\x00\\x00\\x00\\x00\\x00\\xf0?\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00')"
+            ]
+        },
+        "available_moves": {
+            "py/reduce": [
+                "<built-in function _reconstruct>",
+                "(<class 'numpy.ndarray'>, (0,), b'b')",
+                "(1, (3, 2), dtype('int64'), True, b'\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x00\\x00\\x00\\x00')"
+            ]
+        },
+        "verbose": false,
+        "rules": {
+            "py/object": "bibli.TTT.TicTacToe.Rules",
+            "horizontal_wins": "[[0, 1, 2], [3, 4, 5], [6, 7, 8]]",
+            "vertical_wins": "[[0, 3, 6], [1, 4, 7], [2, 5, 8]]",
+            "diagonal_wins": "[[0, 4, 8], [2, 4, 6]]",
+            "win_conditions": "[[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]",
+            "winning_move": "[0, 1, 2]",
+            "winner": -1
+        },
+        "m_color": -1,
+        "last_move": {
+            "py/tuple": [
+                "0",
+                "2"
+            ]
+        },
+        "win": true
+    },
+    "parent": {
+        "py/object": "bibli.MCTS.Node.Node",
+        "state": {
+            "py/object": "bibli.TTT.TicTacToe.Board",
+            "board_mat": "array([[-1., -1.,  0.],\n       [ 0.,  1.,  0.],\n       [ 1.,  1.,  0.]])",
+            "available_moves": "array([[0, 2],\n       [1, 0],\n       [1, 2],\n       [2, 2]], dtype=int64)",
+            "verbose": false,
+            "rules": "<bibli.TTT.TicTacToe.Rules object at 0x000001A4BD4E9240>",
+            "m_color": 1,
+            "last_move": "(2, 0)",
+            "win": false
+        },
+        "parent": null,
+        "children": [
+            "<bibli.MCTS.Node.Node object at 0x000001A4BD4EA470>",
+            "<bibli.MCTS.Node.Node object at 0x000001A4BD4EA620>",
+            "<bibli.MCTS.Node.Node object at 0x000001A4BD4EA680>",
+            "<bibli.MCTS.Node.Node object at 0x000001A4BD4EA710>"
+        ],
+        "visits": 0,
+        "wins": 0,
+        "untried_moves": {
+            "py/reduce": [
+                "<built-in function _reconstruct>",
+                "(<class 'numpy.ndarray'>, (0,), b'b')",
+                "(1, (4, 2), dtype('int64'), True, b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x02\\x00\\x00\\x00\\x00\\x00\\x00\\x00')"
+            ]
+        },
+        "move": {
+            "py/tuple": [
+                "2",
+                "0"
+            ]
+        },
+        "player": 1,
+        "uct": 0
+    },
+    "children": [],
+    "visits": 1,
+    "wins": 1,
+    "untried_moves": {
+        "py/id": 3
+    },
+    "move": {
+        "py/tuple": [
+            {
+                "py/reduce": [
+                    "<built-in function scalar>",
+                    "(dtype('int64'), b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00')"
+                ]
+            },
+            {
+                "py/reduce": [
+                    "<built-in function scalar>",
+                    "(dtype('int64'), b'\\x02\\x00\\x00\\x00\\x00\\x00\\x00\\x00')"
+                ]
+            }
+        ]
+    },
+    "player": -1,
+    "uct": 0
+}ù
